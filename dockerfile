@@ -1,6 +1,6 @@
 FROM python:3.9-slim
 WORKDIR /APP
-COPY ./chatbot.py /APP
+COPY ./app.py /APP
 COPY ./ChatGPT_HKBU.py /APP
 COPY ./requirements.txt /APP
 RUN pip install --upgrade pip \
